@@ -6,6 +6,9 @@
   border: none;
   border-radius: 0%;
 }
+.#{
+  color:white;
+}
 
 .navbar-default .navbar-brand {
   color: white;
@@ -13,11 +16,18 @@
 
 .navbar-default .navbar-nav>li:hover {
   background-color: yellow;
-  /* color: white; */
 }
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
 .navbar-default .navbar-nav .open a:focus {
   background-color: white;
+  color: white;
 }
+
+
 #logo {
   margin: 5px;
   width: 30px;
@@ -48,6 +58,7 @@
 }
 .my-carousel {
   background-color: #00a7e4;
+  height: 350px;
 }
 .my-carousel h1 {
   color: white;
@@ -56,8 +67,8 @@
 
 }
 .my-carousel-image {
-  width: 150px;
-  height: 50px;
+  width: 250px;
+  height: 200px;
   size:cover;
   /* margin-bottom: 10%;
   width: 50px;
@@ -68,11 +79,12 @@
   width: 100%;
 }
 .my-image-1 {
-  width: 150px;
-  padding-bottom: 10%;
-  height: 150px;
+  width: 250px;
+  padding-bottom: 5%;
+  padding-top:5%;
+  height: 260px;
   margin-left: 5%;
-  margin-bottom: 30px;
+  /* margin-bottom: 15px; */
 }
 .carousel-control.left, .carousel-control.right {
   background-image: none;
